@@ -5,6 +5,7 @@ public class PianoForm extends javax.swing.JFrame {
     public PianoForm() {
         initComponents();
         Disable();
+        setResizable(false);
     }
 
     // if the on/off button is off then disable all buttons----------------------
